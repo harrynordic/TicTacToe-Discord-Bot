@@ -33,17 +33,14 @@ To use the Discord Tic-Tac-Toe Bot in your own server, follow these steps:
 
 TIC-TAC-TOE COMMANDS (in discord)
 
--#start: Start the Tic-Tac-Toe game.
-(Need 2 players to start)
+- #start: Start the Tic-Tac-Toe game, Need 2 players to start.
 
--#stop: Quit the Tic-Tac-Toe game.
-(Stop a game in progress)
+- #stop: Quit the Tic-Tac-Toe game, Stop a game in progress.
 
--#play <position>: Make a move in the Tic-Tac-Toe game. 
-(Replace <position> with a number from 1 to 9 to choose a position on the board.)
+- #play **(position)**: Make a move in the Tic-Tac-Toe game,  Replace **(position)** with a number from 1 to 9 to choose a position on the board.
 
 
--#help: Show the Help Message.
+- #help: Show the Help Message.
 
 ## SUPPORT
 
