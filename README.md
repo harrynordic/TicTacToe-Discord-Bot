@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [FEATURES](#features)
-- [HOW TO USE](#How--to--Use)
+- [HOW TO USE](#how-to-use)
 - [COMMANDS](#commands)
 - [SUPPORT](#support)
 
