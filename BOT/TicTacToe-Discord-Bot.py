@@ -6,18 +6,15 @@ intents.messages = True
 
 client = discord.Client(intents=intents)
 
-# Setting the bot prefix
 prefix = "#"
 token = "YOUR_DISCORD_TOKEN"
 board = []
 players = []
 current_player = None
 
-# Function to create a new board
 def create_board():
     return [[' ' for _ in range(3)] for _ in range(3)]
 
-# Function to print the current board
 def print_board(board):
     line = '-------------'
     output = line + '\n'
@@ -28,7 +25,6 @@ def print_board(board):
         output += '\n' + line + '\n'
     return output
 
-# Function to check if a player has won
 def check_win(board, player):
     for i in range(3):
         if board[i] == [player, player, player]:
@@ -41,7 +37,6 @@ def check_win(board, player):
         return True
     return False
 
-# Function to get the current player number
 def get_current_player_number():
     if current_player == players[0]:
         return 1
@@ -50,7 +45,6 @@ def get_current_player_number():
     else:
         return None
 
-# Function to process bot commands
 async def process_commands(message):
     global board
     global players
@@ -147,16 +141,13 @@ TIC-TAC-TOE COMMANDS
 """
             await message.channel.send(f'```\n{help_message}\n```')
 
-# Bot initialization event
 @client.event
 async def on_ready():
     print(f'Bot connected as {client.user.name}')
     print('------')
 
-# Message received event
 @client.event
 async def on_message(message):
     await process_commands(message)
 
-# Run the bot
 client.run(token)
