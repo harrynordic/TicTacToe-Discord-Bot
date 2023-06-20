@@ -46,7 +46,7 @@ TIC-TAC-TOE COMMANDS (in discord)
 
 If you encounter any issues or have questions about Discord Tic-Tac-Toe Bot, feel free to reach out for help. You can contact me through discord:
 
-- Discord: HarryNordic#8771
+- Discord: harrynordic
 - [Support me on Patreon](https://www.patreon.com/HarryNordic)
 
 Enjoy playing Tic-Tac-Toe on Discord with your friends! Have fun!
