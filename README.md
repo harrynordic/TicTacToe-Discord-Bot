@@ -49,4 +49,4 @@ If you encounter any issues or have questions about Discord Tic-Tac-Toe Bot, fee
 - Discord: harrynordic
 - [Support me on Patreon](https://www.patreon.com/HarryNordic)
 
-Enjoy playing Tic-Tac-Toe on Discord with your friends! Have fun!
+Enjoy playing Tic-Tac-Toe on Discord with your friends! Have fun!!
